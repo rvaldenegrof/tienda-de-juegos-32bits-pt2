@@ -1,15 +1,20 @@
 <template>
   <div>
     <h1 class="pt-4 ml-4">Ventas</h1>
-    <!-- <JuegosConStock /> -->
+    <JuegosConStock />
+    <Listado />
   </div>
 </template>
 
 <script>
-//import JuegosConStock from '../components/JuegosConStock.vue'
+import JuegosConStock from '../components/JuegosConStock.vue'
+import Listado from "@/components/Listado.vue";
 export default {
   name: "Ventas",
-  //components: { JuegosConStock },
+  components: { 
+    JuegosConStock,
+    Listado
+  },
 };
 </script>
 

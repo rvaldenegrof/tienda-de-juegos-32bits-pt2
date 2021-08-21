@@ -18,19 +18,19 @@
         {{ juego.precio }}
       </li>
     </ul>
-    <JuegosConStock />
+    <!-- <JuegosConStock /> -->
     <Listado />
   </div>
 </template>
 
 <script>
 import Listado from "@/components/Listado.vue";
-import JuegosConStock from "@/components/JuegosConStock.vue";
+//import JuegosConStock from "@/components/JuegosConStock.vue";
 
 export default {
   name: "BusquedasPage",
   components: {
-    JuegosConStock,
+    //JuegosConStock,
     Listado,
   },
 };
