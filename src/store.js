@@ -69,7 +69,7 @@ const store = new Vuex.Store({
       return state.juegos.filter((juego) => juego.stock > 0);
     },
     carrito(state){
-      return console.log(state.carritoDeCompras);
+      return state.carritoDeCompras;
     }
   },
   mutations: {
